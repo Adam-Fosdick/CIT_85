@@ -1,0 +1,16 @@
+button{
+    padding: 20px;
+    display: block;
+    margin: auto;
+    front-size: 20px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: darkolivegreen;
+}
+button:active{
+    background-color: greenyellow}
+
+a:link {
+    background-color: yellow;
+}
