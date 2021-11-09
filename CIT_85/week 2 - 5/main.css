@@ -1,0 +1,28 @@
+html{
+    background-color: lemonchiffon;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+p{
+    margin: 20px;
+}
+div {
+    height: 20px;
+}
+
+
+.firsthalf{
+    color: #ff00d5;
+}
+.lasthalf{
+    color: aqua;
+}
+.half{
+    color: chartreuse;
+}
+#testid{
+    color: blue;
+}
