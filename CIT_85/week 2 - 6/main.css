@@ -1,0 +1,29 @@
+html{
+    background-color: rgba(213, 211, 208, 0.27);
+}
+button{
+    padding: 20px;
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+}
+button:hover{
+    background-color: #388a98;
+}
+button:active{
+    background-color: #385398
+}
+
+
+body{
+    text-decoration-thickness: auto;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding-top: 30px;
+    font-size: larger;
+    font-style: italic;
+}
