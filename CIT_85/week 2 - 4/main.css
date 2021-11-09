@@ -1,0 +1,19 @@
+body{
+    front-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+}
+div p{
+    color:red;
+}
+
+div > p {
+    color: green;
+}
+
+div ~ p {
+    color:teal;
+}
+div + p {
+    color: #ff00d5;
+}
