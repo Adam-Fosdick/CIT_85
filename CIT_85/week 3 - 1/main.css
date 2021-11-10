@@ -1,0 +1,11 @@
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 75px 25px 75px 25px;
+    border-style: groove;
+    border-color: darkgreen;
+    border-bottom-color: black;
+    background-color: #f3e740;
+    margin: auto;
+    display: inline-block;
+}
