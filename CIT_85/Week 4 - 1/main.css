@@ -1,0 +1,36 @@
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.google{
+    font-family: 'Dancing Script', cursive;
+}
+.italic-uppercase{
+font-style: italic;
+    text-transform: uppercase;
+}
+.spacing{
+letter-spacing: 5px;
+}
+.shadow{
+text-shadow: 2px 1px 2px darkblue;
+}
+.remove-underline{
+text-decoration: none;
+
+}
+.line-through{
+    text-decoration: line-through;
+}
+.underline{
+
+    text-decoration: underline;
+}
+.indent{
+    text-indent: 4rem;
+}
+a:hover{
+    text-decoration: underline;
+}
