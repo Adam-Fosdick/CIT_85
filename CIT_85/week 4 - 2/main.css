@@ -1,0 +1,25 @@
+header{
+    background-color: red;
+    text-align: center;
+}
+nav{
+    background-color: orange;
+    text-align: center;
+}
+section{
+    background-color: #f3e740;
+    text-align: center;
+
+}
+article{
+    background-color: chartreuse;
+    text-align: center;
+}
+aside{
+    background-color: blue;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: purple;
+}
