@@ -1,0 +1,30 @@
+body{
+    text-decoration: none;
+}
+.red:hover{
+    background-color: red;
+    transition: 0.9s;
+}
+.blue:hover{
+    background-color: blue;
+    transition: 0.9s;
+}
+.green:hover{
+    background-color: green;
+    transition: 0.9s;
+}
+.yellow:hover{
+    background-color: yellow;
+    transition: 0.9s;
+}
+.orange:hover{
+    background-color: orange;
+    transition: 0.9s;
+}
+button{
+    height: 25px;
+    width:75px;
+    text-align: center;
+    text-decoration: none;
+    text-align-all: center;
+}
