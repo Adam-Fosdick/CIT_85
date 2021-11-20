@@ -1,0 +1,20 @@
+body{
+   display: flex;
+  flex-flow: row wrap;
+}
+div{
+  width: 100px;
+  heigth: 10px;
+  background-color: #f80202;
+  border: 1px solid black;
+  text-align: center;
+  margin: 1em;
+}
+
+.flex1{
+  flex-grow: 1;
+}
+
+.flex2{
+  flex-grow: 2;
+}
