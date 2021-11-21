@@ -1,0 +1,21 @@
+body{
+    display: flex;
+
+}
+div{
+    width: 400px;
+    heigth: 25px;
+    background-color: #f80202;
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+
+.flex1{
+    flex-grow: 1;
+}
+
+.flex2{
+    flex-grow: 2;
+}
