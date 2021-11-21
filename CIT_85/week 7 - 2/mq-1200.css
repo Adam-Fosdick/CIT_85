@@ -1,0 +1,34 @@
+body{
+flex-flow: wrap row;
+}
+.one{
+   text-align: center;
+width: 100%;
+    background-color: #f80202;
+}
+.two{
+    text-align: center;
+    width: 100%;
+
+    background-color: #64c2d0;
+}
+.three {
+    text-align: center;
+
+    width: 100%;
+
+    background-color: #06fa8c;
+}
+.four{
+    text-align: center;
+
+    width: 100%;
+
+    background-color: #f3e740;
+}
+.five{
+    text-align: center;
+    width: 100%;
+
+    background-color: #0008a1;
+}

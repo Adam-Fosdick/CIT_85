@@ -1,0 +1,41 @@
+
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.one{
+    text-align: center;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: #f80202;
+}
+.two{
+    text-align: center;
+    flex-flow: row wrap;
+    width: 60%;
+    background-color: #64c2d0;
+}
+.three {
+    text-align: center;
+    flex-wrap: wrap;
+    width: 40%;
+    align-items: end;
+    background-color: #06fa8c;
+}
+.four{
+    text-align: center;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: end;
+    background-color: #f3e740;
+}
+.five{
+    text-align: center;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: end;
+    background-color: #973bc5;
+}
