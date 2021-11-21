@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+    height: 200px;
+}
+.one{
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    flex-direction: column;
+    background-color: #0700a9;
+
+    width: 30%;
+    height: 200px;
+
+}
+.two{
+   display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    background-color: #3f4dff;
+    height: 100px;
+    width: 70%;
+}
+.three{
+    flex-flow: row;
+    background-color: #92ecff;
+    height: 100px;
+}
