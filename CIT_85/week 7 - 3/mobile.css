@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+    height: 200px;
+}
+.one{
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    background-color: white;
+
+    width: 30%;
+    height: 500px;
+    word-spacing: 100px;
+
+}
+.two{
+    text-align: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    background-color: white;
+    height: 500px;
+    width: 70%;
+}

@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.one{
+    justify-content: space-around;
+    text-align: center;
+word-spacing: 20px;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: white;
+    border: solid red;
+}
+.two{
+    display: flex;
+    justify-content: flex-start;
+
+    text-align: center;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: white;
+    border: solid red;
+}
+
