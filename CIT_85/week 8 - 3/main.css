@@ -1,0 +1,13 @@
+html,body,ul,li,a{
+    padding: 0;
+    boarder:0;
+    maring:0;
+box-sizing: border-box;
+}
+ul{
+    display: flex;
+    flex-flow: column nowrap;
+}
+a{
+    display:block;
+}
