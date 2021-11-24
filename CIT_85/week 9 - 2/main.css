@@ -1,0 +1,25 @@
+html{
+    border: 2px solid darkred;
+    height: 400px;
+    width: 400px;
+
+
+}
+body{
+    border: 2px solid darkblue;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+div{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 30px;
+    background: rgba(124, 252, 0, 0.41);
+    border: 2px solid black;
+ text-justify: auto;
+}
