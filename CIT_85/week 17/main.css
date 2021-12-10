@@ -1,0 +1,130 @@
+html{
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+footer{
+    float: right;
+    overflow: auto;
+}
+.img-sleep:hover{
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    color: #06fa8c;
+}
+h1{
+  border-color: #f80202;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.img-sleep{
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin: fill 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #f80202;
+    border-width: 4px;
+    right: 20px;
+    position: fixed;
+    color: #ffffff;
+    top: 20px;
+    animation-name:grow;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-family: 'Dancing Script', cursive;
+    font-size: 10px;
+text-align: left;
+    text-shadow: #211701 1px 1px;
+
+
+}
+
+header{
+    display: flex;
+align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 25px;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(https://2.bp.blogspot.com/-XJqHC-wZRIE/XGHkacf-LyI/AAAAAAAACdY/KKPzEcMt9KI2X8-P3nt29TqiRMQQTPVaQCKgBGAs/w0/night-sky-stars-horizon-scenery-8K-166.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+
+
+}
+.one{
+    justify-content: space-around;
+    text-align: center;
+    word-spacing: 20px;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid rgba(151, 59, 197, 0.75);
+}
+.two{
+    display: flex;
+    justify-content: flex-start;
+
+    text-align: center;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid rgba(151, 59, 197, 0.75);
+}
+
+.purplebutton:hover{
+    background-color: rgba(49, 27, 72, 0.5);
+    color: #92ecff;
+    transition: 2s;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+button{
+  background-color: rgba(128, 128, 128, 0.25);
+   flex-grow: 1;
+    height: 25px;
+    width:75px;
+    text-align: center;
+    text-decoration: none;
+    text-align-all: center;
+    color: white;
+    margin: 10px;
+    box-shadow: 0em 0em 1em rgba(255, 255, 255, 0.84);
+}
+@keyframes grow {
+0%{
+     transform: scale(1);
+}
+    35% {
+        transform: scale(0.875);
+    }
+    50%{
+    transform: scale(0.8);
+
+}
+    85% {
+        transform: scale(0.975);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.google{
+    font-family: 'Dancing Script', cursive;
+}
